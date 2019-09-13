@@ -4,10 +4,8 @@ def my_collect(array)
   languages_array = []
   counter = 0
   while counter < array.length do
-    empty_array << yield(students[counter])
-    languages_array << yield(languages[counter])
+    empty_array << yield(array[counter])
     counter += 1
   end
-  languages_array
   empty_array
 end
