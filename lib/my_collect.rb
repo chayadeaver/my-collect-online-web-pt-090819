@@ -5,5 +5,4 @@ def my_collect(array)
   while counter < array.length do
     yield(language)
   end
-empty_array
 end
