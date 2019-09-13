@@ -6,3 +6,5 @@ def my_collect(array)
     yield
   end
 end
+
+my_collect(languages) do |language|
