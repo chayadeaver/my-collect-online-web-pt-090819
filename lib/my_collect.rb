@@ -6,6 +6,7 @@ def my_collect(array)
     empty_array << ield(languages[counter])
     counter += 1
   end
+  empty_array
 end
 
 my_collect(languages) do |languages|
