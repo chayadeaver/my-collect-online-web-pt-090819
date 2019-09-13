@@ -7,6 +7,4 @@ def my_collect(array)
   end
 end
 
-my_collect(languages) do |language|
-  language.upcase
-end
+
