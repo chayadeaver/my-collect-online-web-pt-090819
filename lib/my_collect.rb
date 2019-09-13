@@ -8,5 +8,6 @@ def my_collect(array)
     languages_array << yield(languages[counter])
     counter += 1
   end
+  languages_array
   empty_array
 end
