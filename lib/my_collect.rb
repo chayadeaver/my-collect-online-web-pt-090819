@@ -6,5 +6,3 @@ def my_collect(array)
     yield array[i]
   end
 end
-
-
