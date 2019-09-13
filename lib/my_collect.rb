@@ -1,7 +1,6 @@
 
 def my_collect(array)
   empty_array = []
-  languages_array = []
   counter = 0
   while counter < array.length do
     empty_array << yield(array[counter])
